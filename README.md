@@ -25,7 +25,7 @@ pip install Pillow
 Define the dataset directory and minimum dimensions, then run the script:
 
 ```
-dataset_directory = r'path/to/your/dataset'
+dataset_directory = 'path/to/your/dataset'
 min_width, min_height = 224, 224
 detect_and_move_low_quality_images(dataset_directory, min_width, min_height)
 ```
